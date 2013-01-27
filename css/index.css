@@ -1,0 +1,500 @@
+body
+{
+    font-family: "helvetica";
+    background-image: url('../media/back1.jpg');
+}
+
+#intro
+{
+    position: relative;
+    margin: 0 auto;
+    height: 700px;
+    width: 800px;
+    top: -720px;
+    opacity: 0.7;
+    background-color: #999;
+}
+
+    #intro_header
+    {
+        position: absolute;
+        background-image: url('../media/header.png');
+        height: 100px;
+        width: 800px;
+    }
+    
+    #intro_instructions
+    {
+        position: absolute;
+        height: 600px;
+        width: 800px;
+        top: 100px;
+    }
+    
+        #intro1
+        {
+            position: absolute;
+            left: 65px;
+            top: 10px;
+            font-weight: bold;
+        }
+        
+        .intro_text
+        {
+            position: absolute;
+            font-size: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #intro2
+        {
+            top: 40px;   
+        }
+        
+        #intro3
+        {
+            top: 90px;
+        }
+        
+        #intro4
+        {
+            top: 140px;   
+        }
+        
+        #intro5
+        {
+            position: absolute;
+            top: 190px;
+            height: 250px;
+            width: 280px;
+            left: 250px;
+            background-image: url('../media/emotion_model.jpg');
+        }
+        
+        #intro6
+        {
+            top: 460px;
+        }
+        
+        #startButton
+        {
+            height: 25px;
+            width: 140px;
+            background-color: #E3D42D;
+            text-align: center;
+            border:1px solid #C4BC5E;
+            -moz-border-radius:10px;
+            -webkit-border-radius:10px;
+            border-radius:10px;
+            padding-top: 8px;
+            -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+            -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+            position: absolute;
+            left: 330px;
+            top: 530px;
+            font-size: 14px;
+        }
+        
+        #startButton:hover
+        {
+            cursor: pointer;
+            background-color: #D6C82D;
+        }
+    
+        #startButton:active
+        {
+            background-color: #C4B727;
+        }
+        
+        
+#header
+{
+    position: relative;
+    margin: 0 auto;
+    background-image: url('../media/header.png');
+    height: 100px;
+    width: 800px;
+    text-align: center;
+}
+
+
+#cake
+{
+    position: relative;
+    margin: 0 auto;
+    background-image: url('../media/cake.png');
+    height: 400px;
+    width: 800px;
+}
+
+    #vocals
+    {
+        position: absolute;
+        background-image: url('../media/vocals.png');
+        height: 60px;
+        width: 600px;
+        top: 50px;
+        left: 100px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        opacity: 0.8;
+    }
+    
+    #guitars
+    {
+        position: absolute;
+        background-image: url('../media/guitars.png');
+        height: 60px;
+        width: 600px;
+        top: 110px;
+        left: 100px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        opacity: 0.8;
+    }
+    
+    #keys
+    {
+        position: absolute;
+        background-image: url('../media/keys.png');
+        height: 60px;
+        width: 600px;
+        top: 170px;
+        left: 100px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        opacity: 0.8;
+    }
+    
+    #bass
+    {
+        position: absolute;
+        background-image: url('../media/bass.png');
+        height: 60px;
+        width: 600px;
+        top: 230px;
+        left: 100px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        opacity: 0.8;
+    }
+
+    #drums
+    {
+        position: absolute;
+        background-image: url('../media/drums.png');
+        height: 60px;
+        width: 600px;
+        top: 290px;
+        left: 100px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        opacity: 0.8;
+    }
+    
+    .arrow
+    {
+        position: absolute;
+        background-image: url('../media/arrow.png');
+        height: 30px;
+        width: 60px;
+        left: 30px;
+    }
+    
+    #arrow_vocals
+    {
+        top: 60px;   
+    }
+    
+    #arrow_guitars
+    {
+        top: 120px;
+    }
+    
+    #arrow_keys
+    {
+        top: 180px;
+    }
+    
+    #arrow_bass
+    {
+        top: 240px;
+    }
+    
+    #arrow_drums
+    {
+        top: 300px;
+    }
+    
+    
+#interaction
+{
+    position: relative;
+    margin: 0 auto;
+    background-image: url('../media/interaction1.png');
+    height: 200px;
+    width: 800px;
+}
+
+    #story
+    {
+        position: absolute;
+        width: 400px;
+        padding-left: 5px;
+        padding-top: 5px;
+        color: #FFF;
+        z-index: 5;
+    }
+    
+    
+    #nextButton
+    {
+        height: 25px;
+        width: 150px;
+        background-color: #E3D42D;
+        text-align: center;
+        border:1px solid #C4BC5E;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        padding-top: 8px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        position: absolute;
+        right: 110px;
+        top: 155px;
+        font-size: 14px;
+        z-index: 5;
+    }
+    
+    #nextButton:hover
+    {
+        cursor: pointer;
+        background-color: #D6C82D;
+    }
+    
+    #nextButton:active
+    {
+        background-color: #C4B727;
+    }
+    
+    #color_options
+    {
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        left: 400px;
+        top: 0px;
+    }
+    
+        #option1
+        {
+            position: absolute;
+            left: 95px;
+            bottom: 90px;
+        }
+        
+        #option2
+        {
+            position: absolute;
+            left: 195px;
+            bottom: 90px;
+        }
+        
+        #option3
+        {
+            position: absolute;
+            left: 295px;
+            bottom: 90px;
+        }
+        
+        
+        #option1_image
+        {
+            position: absolute;
+            background-color: #FFF;
+            height: 50px;
+            width: 50px;
+            left: 80px;
+            top: 30px;
+        }
+        
+        #option2_image
+        {
+            position: absolute;
+            background-color: #FFF;
+            height: 50px;
+            width: 50px;
+            left: 180px;
+            top: 30px;
+        }
+        
+        #option3_image
+        {
+            position: absolute;
+            background-color: #FFF;
+            height: 50px;
+            width: 50px;
+            left: 280px;
+            top: 30px;
+        }
+        
+    #results
+    {
+        position: absolute;
+        left: 160px;
+        bottom: 15px;
+        height: 70px;
+        width: 200px;
+        border:1px solid #AAA;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+        padding-top: 8px;
+        -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); 
+        -moz-box-shadow: 0px 1px 3px rgba(23, 69, 88, .5);
+        padding-left: 4px;
+        font-size: 14px;
+        color: #FFF;
+        z-index: 5;
+    }
+    
+        #valence
+        {
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+        
+        #arousal
+        {
+            position: absolute;
+            left: 10px;
+            top: 40px;
+        }
+        
+        #red
+        {
+            position: absolute;
+            left: 100px;
+            top: 10px;
+        }
+        
+        #green
+        {
+            position: absolute;
+            left: 100px;
+            top: 30px;
+        }
+        
+        #blue
+        {
+            position: absolute;
+            left: 100px;
+            top: 50px;
+        }
+    
+    
+#final
+{
+    position: absolute;
+    left: 240px;
+    height: 200px;
+    width: 800px;
+    top: 508px;
+    z-index: 0;
+}
+    
+    #final_text
+    {
+        position: absolute;
+        left: 200px;
+        top: 10px;
+        z-index: 2;
+    }
+    
+    #plot
+    {
+        width:200px;
+        height:140px;
+        right: 90px;
+        top: 5px;
+        position: absolute;
+        background-color: #999;
+        opacity: 0.8;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+    
+    }
+    
+    #chart
+    {
+        width:200px;
+        height:140px;
+    }
+    
+    
+    #spectrum
+    {
+        position: absolute;
+        background-image: url('../media/stroke.png');
+        height: 90px;
+        width: 90px;
+        left: 55px;
+        top: 26px;
+    }
+    
+    .axis path, .axis line
+    {
+        fill: none;
+        stroke: black;
+	shape-rendering: crispEdges;
+    }
+			
+    .axis text
+    {
+	font-family: sans-serif;
+	font-size: 10px;
+    }
+    
+        .plot_text
+        {
+            position: absolute;
+            font-size: 12px;
+        }
+        
+        #happy
+        {
+            bottom: 70px;
+            right: 1px; 
+        }
+        
+        #excited
+        {
+            top: 1px;
+            left: 102px;
+        }
+        
+        #bored
+        {
+            bottom: 1px;
+            left: 102px;
+        }
+        
+        #sad
+        {
+            bottom: 70px;
+            left: 1px;
+        }
+
+
+#footer
+{
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    color: #999;
+    font-size: 10px;
+    padding-top: 6px;
+}
